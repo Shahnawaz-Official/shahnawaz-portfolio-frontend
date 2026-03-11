@@ -9,7 +9,7 @@ function Certificate() {
 
   const fetchCertificates = async () => {
     try {
-      const res = await axios.get("https://potfolio-backend-3-f00o.onrender.com/api/certificate/");
+      const res = await axios.get("https://potfolio-backend-3-f00o.onrender.com/api/certificate");
       setCertificates(res.data.certificate);
     } catch (error) {
       console.log(error);
