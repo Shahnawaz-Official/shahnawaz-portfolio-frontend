@@ -32,7 +32,7 @@ const UploadCertificate = () => {
       data.append("image", image);
 
       await axios.post(
-        "https://potfolio-backend-pq7q.onrender.com/api/admin/certificate/upload",
+        "https://potfolio-backend-3-f00o.onrender.com/api/admin/certificate/upload",
         data,
         {
           withCredentials: true, // ✅ cookie send karega

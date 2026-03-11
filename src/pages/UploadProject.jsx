@@ -34,7 +34,7 @@ const UploadProject = () => {
       data.append("image", image);
 
       await axios.post(
-        "https://potfolio-backend-pq7q.onrender.com/api/admin/project/upload",
+        "https://potfolio-backend-3-f00o.onrender.com/api/admin/project/upload",
         data,
         {
           withCredentials: true, // ✅ IMPORTANT (cookie send karega)
